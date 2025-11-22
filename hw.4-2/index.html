@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Добавление товара + Email</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>Добавление товара</h1>
+
+    <form id="form" novalidate>
+
+      <label for="email">E-mail</label>
+      <input id="email" type="text" placeholder="example@mail.com">
+      <div class="error" id="email-error"></div>
+
+      <label for="title">Title</label>
+      <input id="title" type="text" placeholder="Минимум 3 символа">
+      <div class="error" id="title-error"></div>
+
+      <label for="price">Price</label>
+      <input id="price" type="number" placeholder="Положительное число">
+      <div class="error" id="price-error"></div>
+
+      <label for="image">Image URL</label>
+      <input id="image" type="text" placeholder="https://...">
+      <div class="error" id="image-error"></div>
+
+      <button id="send" type="submit" disabled>Отправить</button>
+    </form>
+
+    <div id="toast" class="toast">Добавлено</div>
+  </div>
+
+<script src="main.js"></script>
+</body>
+</html>
