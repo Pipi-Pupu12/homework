@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Поиск по имени</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="container">
+<h1>Поиск по имени</h1>
+
+
+<label for="search">Поиск</label>
+<input id="search" type="search" placeholder="Начните вводить имя..." autocomplete="off">
+
+
+<section aria-labelledby="results-title">
+<h2 id="results-title">Результаты</h2>
+<ul id="users-list" class="users-list" role="list"></ul>
+</section>
+
+
+<p class="hint">Поиск выполняется без перезагрузки, регистр не важен. Совпадение подсвечивается тегом &lt;mark&gt;.</p>
+</main>
+
+
+<script src="main.js" defer></script>
+</body>
+</html>
