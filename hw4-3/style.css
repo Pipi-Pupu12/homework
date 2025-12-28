@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
+button {
+  margin-top: 5px;
+  width: 100%;
+  padding: 6px;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
