@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <h2 class="header-title"><a href="../../index.html">Shop</a></h2>
+        <a class="header-link" href="../create/create.html">Create</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="detail">
+        <div class="container" id="detail"></div>
+      </section>
+      <section id="edit" class="edit">
+        <div class="container">
+          <form id="edit-form" class="create-form">
+            <h2>Edit product</h2>
+            <div class="form-group">
+              <label for="title">Title</label>
+              <input type="text" id="title" name="title" />
+            </div>
+            <div class="form-group">
+              <label for="description">Description</label>
+              <input type="text" id="description" name="description" />
+            </div>
+            <div class="form-group">
+              <label for="price">Price</label>
+              <input type="text" id="price" name="price" />
+            </div>
+            <div class="form-group">
+              <label for="image">Image</label>
+              <input type="file" id="image" name="image" />
+              <!-- {image: file} -->
+            </div>
+            <div class="btn-group">
+              <button type="submit" class="btn-create">Edit</button>
+              <button type="button" class="btn-create" id="btn-cancel">
+                Cancel
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="./detail.js"></script>
+  </body>
+</html>

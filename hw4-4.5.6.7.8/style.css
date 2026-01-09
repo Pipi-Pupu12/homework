@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  align-items: stretch;
+}
+
+.col-4 {
+  width: 33.3%;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  border-bottom: 1px solid #252525;
+  background-color: #fff;
+  gap: 10px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.card {
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.card img {
+  height: 350px;
+  object-fit: contain;
+}
+
+.card h4 {
+  font-size: 20px;
+}
+
+.card a,
+.btn-create,
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  border-radius: 6px;
+}
+
+.create form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.create form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.form-group label {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.form-group input {
+  padding: 10px;
+  outline: none;
+  border: 1px solid #007bff;
+  border-radius: 6px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.btn-group button {
+  width: calc(50% - 12.5px);
+}
+
+.edit {
+  /* box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2); */
+  display: none;
+  background: lab(0 0 0 / 0.5);
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+}
+
+.edit form {
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+
+.input{
+  width: 50%;
+  padding: 10px;
+}
+
+.btn{ 
+  background-color: #007bff;
+  width: 20%;
+}
+
+.btn:hover{
+  background-color: #0056b3;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+select{
+  padding: 10px;
+  border:  1px solid #0056b3;
+  background-color: transparent;
+  border-radius: 15px;
+}
+
+option{
+  padding: 10px;
+}
+
+.error-text{
+  color: red;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <h2 class="header-title"><a href="./index.html">Shop</a></h2>
+
+        <button class="btn" id="fav-filter">Избранное</button>
+
+        <input class="input" type="text" placeholder="search..." id="search" />
+        <button class="btn" id="search-btn">Search</button>
+
+        <select id="price-filter">
+          <option value="more">Сначала дорогие</option>
+          <option value="less">Сначала дешевые</option>
+        </select>
+
+        <select id="status-filter">
+          <option value="">Все статусы</option>
+          <option value="new">Новый</option>
+          <option value="defective">Брак</option>
+          <option value="frequently_sold">Хит продаж</option>
+        </select>
+
+        <a class="header-link" href="./pages/create/create.html">Create</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="cards">
+        <div class="container">
+          <p id="loader">Loading...</p>
+          <p id="empty" style="display: none">Пока нет товаров</p>
+          <div class="row"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

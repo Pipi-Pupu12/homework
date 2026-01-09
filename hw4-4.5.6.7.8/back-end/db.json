@@ -1,0 +1,90 @@
+[
+  {
+    "id": "0ae4e29a-882c-420f-ab1c-d100e3ffb507",
+    "title": "ARDENT1123",
+    "price": 190,
+    "image": "http://localhost:8000/images/images9a998e5a-2d4c-4aa2-a800-0e9120518ffc.jpeg",
+    "status": "string",
+    "description": "string312312"
+  },
+  {
+    "id": "933ce13b-702f-456f-ac13-31c2c1cee891",
+    "title": "ARDENT №2",
+    "description": "1234",
+    "price": 213,
+    "image": "http://localhost:8000/images/images35f7c154-ea04-4e87-b168-1517da1ada7b.jpg",
+    "status": "normal"
+  },
+  {
+    "id": "a014e065-46f7-484c-bf74-a12012f13f20",
+    "title": "123",
+    "description": "123",
+    "price": 123,
+    "image": "http://localhost:8000/images/imagese85deae7-166e-46ce-bfb2-0c4520de84ad.jpg",
+    "status": "normal"
+  },
+  {
+    "id": "5050a872-f9bb-4647-9204-e37cf46792b3",
+    "title": "tyr",
+    "description": "ytr",
+    "price": 543,
+    "image": "http://localhost:8000/images/images455c204d-af8e-41a7-bb4b-cfa726f23e43.png",
+    "status": "normal"
+  },
+  {
+    "id": "1b76dbe9-145d-4d0e-a5d8-2bacd9a3404f",
+    "title": "dsfds",
+    "description": "fds",
+    "price": null,
+    "image": "http://localhost:8000/images/imagesdf58aae3-6549-4a60-a891-2fc07b4744ec.png",
+    "status": "normal"
+  },
+  {
+    "id": "b066db82-a88e-4a72-9cfe-0c145d3a5991",
+    "title": "а",
+    "description": "а",
+    "price": null,
+    "image": "http://localhost:8000/images/imagesa1672a77-bc4d-4070-a296-ffd480a6535a.png",
+    "status": "normal"
+  },
+  {
+    "id": "dfeec6cc-7bb9-46bb-ba25-3237f1f70017",
+    "title": "",
+    "description": "",
+    "price": 0,
+    "image": null,
+    "status": "new"
+  },
+  {
+    "id": "cf3b1985-b572-482a-8c34-e92048a9052a",
+    "title": "",
+    "description": "",
+    "price": 0,
+    "image": null,
+    "status": "normal"
+  },
+  {
+    "id": "9765d54f-5dd8-41b4-bd30-c89bf1eb1273",
+    "title": "trerte",
+    "description": "tretretre",
+    "price": 432432,
+    "image": null,
+    "status": "frequently_sold"
+  },
+  {
+    "id": "7737a949-6206-4ffe-a91a-2146cd0cd625",
+    "title": "trerte",
+    "description": "tretretre",
+    "price": 432432,
+    "image": "http://localhost:8000/images/images2df224b5-8cd7-4a64-bccc-9a641132c96a.png",
+    "status": "frequently_sold"
+  },
+  {
+    "id": "15b1ee3b-0fc8-4286-8523-88dc5f842171",
+    "title": "",
+    "description": "",
+    "price": 0,
+    "image": null,
+    "status": "frequently_sold"
+  }
+]
